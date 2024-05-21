@@ -13,8 +13,8 @@ export const routes: Routes = [
     { path: '',   redirectTo: '/home', pathMatch: 'full' },
     { path: 'marcos-gomez', component: MarcosGomezComponent },
     {path: 'home', component: HomeComponent},
+    {path: 'component/jorge-escrich-laorden', component: jorge-escrich-laorden},
     {path: 'navbar', component: NavbarComponent},
-    { path: 'valacreu', component: VicenteAlacreuComponent},
     { path: '**', component: PageNotFoundComponent }, 
     
 ];
