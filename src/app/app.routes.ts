@@ -2,6 +2,9 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+<<<<<<< HEAD
+import { MarcosGomezComponent } from './components/marcos-gomez/marcos-gomez.component';
+=======
 import { AlvaroGarciaComponent } from './components/alvaro-garcia/alvaro-garcia.component';
 import { VicenteAlacreuComponent } from './components/vicente-alacreu/vicente-alacreu.component';
 import { MarcosGomezComponent } from './marcos-gomez/marcos-gomez.component';
@@ -10,6 +13,7 @@ import { AlfonsoComponent } from './components/alfonso/alfonso.component';
 
 import { AlvarosanjoseComponent } from './components/alvarosanjose/alvarosanjose.component';
 
+>>>>>>> main
 
 export const routes: Routes = [
     { path: 'marcos-gomez', component: MarcosGomezComponent },
