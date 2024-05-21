@@ -6,27 +6,23 @@ import { AdrianComponent } from './components/adrian/adrian.component';
 import { Component } from '@angular/core';
 import { JorgeEscrichLaordenComponent } from './components/jorge-escrich-laorden/jorge-escrich-laorden.component';
 import { VicenteAlacreuComponent } from './components/vicente-alacreu/vicente-alacreu.component';
-import { MarcosGomezComponent } from './marcos-gomez/marcos-gomez.component';
+import { MarcosGomezComponent } from './components/marcos-gomez/marcos-gomez.component';
 import { AlvaroGarciaComponent } from './components/alvaro-garcia/alvaro-garcia.component';
 import { AlfonsoComponent } from './components/alfonso/alfonso.component';
 import { AlvarosanjoseComponent } from './components/alvarosanjose/alvarosanjose.component';
 
-
-
 export const routes: Routes = [
-    { path: 'marcos-gomez', component: MarcosGomezComponent },
-    {path: 'AlvaroGarcia',component: AlvaroGarciaComponent},
+    {path: 'home', component: HomeComponent},
     { path: '',   redirectTo: '/home', pathMatch: 'full' },
     { path: 'marcos-gomez', component: MarcosGomezComponent },
+    {path: 'AlvaroGarcia',component:AlvaroGarciaComponent},
     { path: 'VicenteAlc', component: VicenteAlacreuComponent }, // is OK
-    {path: 'home', component: HomeComponent},
     {path: 'jorge-escrich-laorden', component: JorgeEscrichLaordenComponent},
     {path: 'navbar', component: NavbarComponent},
     {path: 'adrian', component: AdrianComponent},
     { path: 'Alfonso', component: AlfonsoComponent},
     {path: 'Alvarosanjose', component: AlvarosanjoseComponent},
     { path: '**', component: PageNotFoundComponent },
-    
 ];
 
     
