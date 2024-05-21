@@ -10,6 +10,7 @@ import { MarcosGomezComponent } from './components/marcos-gomez/marcos-gomez.com
 import { AlvaroGarciaComponent } from './components/alvaro-garcia/alvaro-garcia.component';
 import { AlfonsoComponent } from './components/alfonso/alfonso.component';
 import { AlvarosanjoseComponent } from './components/alvarosanjose/alvarosanjose.component';
+import { VicenteHerreroComponent } from './components/vicente-herrero/vicente-herrero.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -22,7 +23,8 @@ export const routes: Routes = [
     {path: 'adrian', component: AdrianComponent},
     { path: 'Alfonso', component: AlfonsoComponent},
     {path: 'Alvarosanjose', component: AlvarosanjoseComponent},
-    { path: '**', component: PageNotFoundComponent },
+    {path: 'vicenteherrero', component: VicenteAlacreuComponent},
+    { path: '**', component: PageNotFoundComponent }
 ];
 
     
