@@ -23,7 +23,7 @@ export const routes: Routes = [
     {path: 'adrian', component: AdrianComponent},
     { path: 'Alfonso', component: AlfonsoComponent},
     {path: 'Alvarosanjose', component: AlvarosanjoseComponent},
-    {path: 'vicenteherrero', component: VicenteAlacreuComponent},
+    {path: 'vicenteherrero', component: VicenteHerreroComponent},
     { path: '**', component: PageNotFoundComponent }
 ];
 
