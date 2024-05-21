@@ -13,8 +13,8 @@ import { AlvarosanjoseComponent } from './components/alvarosanjose/alvarosanjose
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
-    { path: '',   redirectTo: '/home', pathMatch: 'full' },
-    { path: 'marcos-gomez', component: MarcosGomezComponent },
+    {path: '',   redirectTo: '/home', pathMatch: 'full' },
+    {path: 'marcos-gomez', component: MarcosGomezComponent },
     {path: 'AlvaroGarcia',component:AlvaroGarciaComponent},
     { path: 'VicenteAlc', component: VicenteAlacreuComponent }, // is OK
     {path: 'jorge-escrich-laorden', component: JorgeEscrichLaordenComponent},
