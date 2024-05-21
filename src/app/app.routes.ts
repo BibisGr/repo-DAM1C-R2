@@ -3,6 +3,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { InfoComponent } from './components/info/info.component';
+import { Component } from '@angular/core';
 
 
 export const routes: Routes = [
@@ -10,5 +11,5 @@ export const routes: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'navbar', component: NavbarComponent},
     { path: '**', component: PageNotFoundComponent },
-    { path: 'info', component: InfoComponent } 
+    {path: 'inicio', component: InfoComponent}
 ];
