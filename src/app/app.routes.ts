@@ -13,7 +13,7 @@ export const routes: Routes = [
     { path: 'marcos-gomez', component: MarcosGomezComponent },
     { path: 'VicenteAlc', component: VicenteAlacreuComponent }, // is OK
     {path: 'home', component: HomeComponent},
-    {path: 'component/jorge-escrich-laorden', component: jorge-escrich-laorden}, // tu componente tiene problemas
+    {path: 'component/jorge-escrich-laorden', component:JorgeEscrichLaordenComponent}, // YA HICE LOS CAMBIOS tu componente tiene problemas
     {path: 'jorge-escrich-laorden', component: JorgeEscrichLaordenComponent},
     {path: 'navbar', component: NavbarComponent},
     { path: '**', component: PageNotFoundComponent }, 
