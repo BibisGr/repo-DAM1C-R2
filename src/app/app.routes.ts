@@ -11,6 +11,7 @@ import { MarcosGomezComponent } from './marcos-gomez/marcos-gomez.component';
 import { JorgeEscrichLaordenComponent } from './components/jorge-escrich-laorden/jorge-escrich-laorden.component';
 import { AlfonsoComponent } from './components/alfonso/alfonso.component';
 
+import { AlvarosanjoseComponent } from './components/alvarosanjose/alvarosanjose.component';
 
 >>>>>>> main
 
@@ -24,6 +25,7 @@ export const routes: Routes = [
     {path: 'jorge-escrich-laorden', component: JorgeEscrichLaordenComponent},
     {path: 'navbar', component: NavbarComponent},
     { path: 'Alfonso', component: AlfonsoComponent},
+    {path: "alvarosanjose", component:AlvarosanjoseComponent},
     { path: '**', component: PageNotFoundComponent }, 
     
 ];
