@@ -1,0 +1,29 @@
+{
+    "gimnasio": {
+      "nombre": "Gimnasio Ejemplo",
+      "servicios": [
+        {
+          "nombre": "Entrenamiento personal",
+          "descripcion": "Sesiones individuales con un entrenador personal",
+          "precio": "50€ por sesión"
+        },
+        {
+          "nombre": "Clases de yoga",
+          "descripcion": "Clases grupales de yoga para todos los niveles",
+          "precio": "15€ por clase"
+        },
+        {
+          "nombre": "Piscina",
+          "descripcion": "Acceso a la piscina para natación libre",
+          "precio": "20€ por mes"
+        },
+        {
+          "nombre": "Sauna",
+          "descripcion": "Acceso a la sauna después del entrenamiento",
+          "precio": "10€ por sesión"
+        }
+      ]
+    }
+  }
+  
+  

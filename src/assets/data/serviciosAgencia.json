@@ -1,0 +1,32 @@
+{
+    "agencia_de_viajes": {
+      "nombre": "Agencia de Viajes Ejemplo",
+      "servicios": [
+        {
+          "nombre": "Reserva de vuelos",
+          "descripcion": "Servicio de reserva de vuelos a múltiples destinos",
+          "precio": "Variable",
+          "urlIMG": "./assets/about-img-1.jpg"
+        },
+        {
+          "nombre": "Reservas de hotel",
+          "descripcion": "Servicio de reserva de hoteles en todo el mundo",
+          "precio": "Variable",
+          "urlIMG": "./assets/about-img-1.jpg"
+        },
+        {
+          "nombre": "Ranking de hoteles",
+          "descripcion": "Clasificación de hoteles basada en las opiniones de los clientes",
+          "precio": "Gratis",
+          "urlIMG": "./assets/about-img-1.jpg"
+        },
+        {
+          "nombre": "Ranking de servicios de vuelo",
+          "descripcion": "Clasificación de servicios de vuelo basada en las opiniones de los clientes",
+          "precio": "Gratis",
+          "urlIMG": "../assets/about-img-1.jpg"
+        }
+      ]
+    }
+  }
+  
